@@ -24,19 +24,17 @@ public class CalculadoraSimples {
         operacao = scanner.nextLine();
 
         if(operacao.equals("soma") || operacao.equals("+") || operacao.equals("Soma")){
-            resultado = num1 + num2;
-            System.out.println("O resultado de " + num1 + " " + operacao + " " + num2 + " é " + resultado);
+            resultado = num1 + num2;            
         }else if(operacao.equals("subtracao") || operacao.equals("-") || operacao.equals("Subtracao")){
             resultado = num1 - num2;
-            System.out.println("O resultado de " + num1 + " " + operacao + " " + num2 + " é " + resultado);
         }else if(operacao.equals("multiplicacao") || operacao.equals("*") || operacao.equals("Multiplicacao")){
             resultado = num1 * num2;
-            System.out.println("O resultado de " + num1 + " " + operacao + " " + num2 + " é " + resultado);
         }else if(operacao.equals("divisao") || operacao.equals("/") || operacao.equals("Divisao")){
             resultado = num1 / num2;
-            System.out.println("O resultado de " + num1 + " " + operacao + " " + num2 + " é " + resultado);
         }else{
             System.out.println("Insira informações validas!!!");
         }
+
+        System.out.println("O resultado de " + num1 + " " + operacao + " " + num2 + " é " + resultado);
     }
 }
