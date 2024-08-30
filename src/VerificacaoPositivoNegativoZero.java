@@ -12,7 +12,7 @@ public class VerificacaoPositivoNegativoZero {
         System.out.println("Insira um número para saber se ele é positivo ou negativo ou zero: ");
         numero = scanner.nextInt();
 
-        if(numero % 2 == 0){
+        if(numero % 2 == 0 && numero != 0){
             System.out.println("O número " + numero + " é POSITIVO");
         }else if(numero % 2 > 0){
             System.out.println("O número " + numero + " é NEGATIVO");
